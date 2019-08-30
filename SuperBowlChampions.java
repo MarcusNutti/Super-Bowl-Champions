@@ -52,7 +52,7 @@ public class SuperBowlChampions {
 	      
 	      try (  
 	         Connection connection = DriverManager.getConnection(
-	            DATABASE_URL, "sbadm", "sbpassword"); 
+	            DATABASE_URL, "***", "***"); 
 	         Statement statement = connection.createStatement(); 
 	         ResultSet resultSet = statement.executeQuery(SELECT_QUERY))
 	      {
